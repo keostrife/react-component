@@ -1,0 +1,4 @@
+# route everything to index.php
+Options +FollowSymLinks
+RewriteEngine on
+allow from all
