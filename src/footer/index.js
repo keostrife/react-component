@@ -12,7 +12,7 @@ class SiteFooter extends React.Component {
 	constructor(props) {
 	    super(props);
 	    this.state = {
-	    	contactEmail: "keo.strife@gmail.com",
+	    	contactEmail: "support@toothmeister.com",
 	    	socialMedias: [
 	    		LinkItem.create({
 	    			title: "facebook",
@@ -127,8 +127,8 @@ class SiteFooter extends React.Component {
 			<div className="container small flex">
 				<div className="signup">
 					<div className="logo">
-						<LogoText color="white" fontWeight="600">keo</LogoText>
-						<LogoText color={theme.light_gray}>strife</LogoText>
+						<LogoText color="white" fontWeight="600">tooth</LogoText>
+						<LogoText color={theme.light_gray}>meister</LogoText>
 					</div>
 					<p><a href={`mailto:${this.state.contactEmail}`}>{this.state.contactEmail}</a></p>
 					<QuickForm>

@@ -39,8 +39,8 @@ class HeaderNavigation extends React.Component {
 	getLogo() {
 		return (
 			<div className="logo">
-				<LogoText color={theme.dark_blue} fontWeight="600">keo</LogoText>
-				<LogoText color={theme.light_gray}>strife</LogoText>
+				<LogoText color={theme.dark_blue} fontWeight="600">tooth</LogoText>
+				<LogoText color={theme.light_gray}>meister</LogoText>
 			</div>
 		);
 	}
